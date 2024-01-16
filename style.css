@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	display: block;
+	color: Black;
+	font-family: 'Arial', sans-serif;
+	text-align:left;
+	background-color: #841e15;
+	background-size: cover;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;}
+
+figcaption {
+	font-size: 12px;
+	line-height: 1.1;
+	color: Black;
+	    text-align: center;
+	font-family: 'Arial', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+#back{
+	background-color: #841e15;	
+	top:0;
+	bottom:0;
+	left:200;
+	right:200;
+}
+
+#bulk{
+	position:absolute;
+	left: 25vw; 
+	right:25vw;	
+	padding-top:1%;
+	top:0;
+	bottom:0;
+}
+table {
+	float: left;
+	border: 4px outset black;
+	border-spacing: 0;
+	border-radius: 7px 0;
+	empty-cells: show;
+	margin-left: 0.5em;
+	margin-right: auto;
+	min-width: 45%;
+	max-width: 95%;
+	width: auto;
+}
+td {
+	border: 1px solid black ;
+	padding: 5px;
+}
+#bulk1{
+	left: 0; 
+	right: 76vw;	
+	top:0;
+	bottom:0;
+	z-index:1;
+}
+
+#bulk2{
+	left: 76vw; 
+	right: 0;	
+	top:0;
+	bottom:0;
+	z-index:1;
+}
+h1{
+	text-align:center;
+	font-family: 'Arial', sans-serif;
+	font-size: 150%;
+	color:black;
+
+}
+h2{
+	font-family: 'Arial', sans-serif;
+	font-size: 120%;
+	text-align:center;
+	color:black;
+}
+h3{
+	text-align:left;
+	font-family: 'Arial', sans-serif;
+	font-size: 100%;
+	text-align:center;
+	color:black;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	font-size: 12pt;
+	text-align: left;
+	color: Black;
+	opacity: 1;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin-left: 20px;
+}
+
+.b1{
+	background: url(https://kodomo.fbb.msu.ru/~kekulen/images/rugl.jpg) no-repeat;
+	background-size: 100%;
+        position:fixed;
+	}
+
+.b2{
+background: url(https://kodomo.fbb.msu.ru/~kekulen/images/rugr.jpg) no-repeat;
+	background-size: 100%;
+	position:fixed;
+}
+
+h1{
+	text-align:center;
+	font-family: 'Arial', sans-serif;
+	font-size: 200%;
+	color:Black;
+
+}
+
+h2{
+	font-family: 'Arial', sans-serif;
+	font-size: 160%;
+	text-align:center;
+	color:Black;
+
+}
+
+h3{
+	text-align:left;
+	font-family: 'Arial', sans-serif;
+	font-size: 120%;
+	text-align:center;
+	color:Black;
+
+}
+
+
+#me_{
+	background-image: url("https://rare-gallery.com/uploads/posts/4539212-anime-girls-minimalism.png") alt="cat.jpg" width=50% >;
+	background-size: cover;
+	opacity:0.5;
+	position:fixed;
+	left: 23.5vw; 
+	right:23.5vw;	
+	padding-top:5%;
+	top:0;
+	bottom:0;
+}
+
+#about{
+	text-align:left;
+	font-family: 'Arial', serif;
+	font-size: 150%;
+	text-align:center;
+}
+
+nav {font-size: 20px; font-family:'Arial', sans-serif;}
+nav ul {margin: 10;
+	padding: 0;
+	background-color: Gold;
+	overflow:auto;
+	border-radius: 20px;
+}
+
+nav ul li {float: left}
+nav ul li a {
+    display: block;
+    color: #d6b604
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+nav ul li a:hover {
+    display: block;
+    color: #d6b612;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+
+.ter {
+	display: block;
+	text-align: center;
+	color: #ece6db;
+	padding: 10px 10px;
+	margin: 40px;
+	margin-top: 10px; 
+	overflow: auto;
+	text-decoration: none;
+	font-family: 'Spectral SC', sans-serif;	
+	font-size: 15px;
+	background: #6a0909;
+	border-radius: 20px;
+}
+.ter ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	font-family: 'Spectral SC', sans-serif;	 
+	background-color: #4b0708;
+	border-radius:20px;
+	opacity:1;
+	}
+.ter ul li { float: left; width: 50%; } 
+.ter ul li a {
+	display: block;
+	color: #ece6db;
+	position: bottom;
+	text-align: center;
+	padding-top: 16px;
+	padding-right: 14px; 
+	padding-bottom: 16px;
+	text-decoration: none;
+	font-family: 'Spectral SC', sans-serif;
+	font-size:16px;
+	height: 340px; 
+        }
+.ter ul li:last-child a {background:url(http://kodomo.fbb.msu.ru/~kekulen/images/lynch2.jpg);
+        background-size:100%;
+	}
+
+.ter ul li:first-child a { background:url(http://kodomo.fbb.msu.ru/~kekulen/images/lynch1.png);
+        		background-size:100%;
+			transition:2s
+	}
+.ter ul li:first-child a:hover {
+                        font-size:16px;
+                        background:url(http://kodomo.fbb.msu.ru/~kekulen/images/red2.jpg);
+                        background-size: 100%;
+	}
+
+.ter ul li:last-child a:hover {
+			font-size:16px;
+                        background:url(http://kodomo.fbb.msu.ru/~kekulen/images/blue.jpg);
+                        background-size: 100%;
+			transition:2s;
+	}
+
+
